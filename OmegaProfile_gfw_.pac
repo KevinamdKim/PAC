@@ -65,7 +65,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)azure\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg1\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg\.fun$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)wandb\.ai$/.test(host)) return "+Anycast";
         return "+__ruleListOf_gfw\u540d\u5355";
     },
     "+__ruleListOf_gfw\u540d\u5355": function() {
@@ -1791,6 +1790,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ifan\.cz\.cc$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mike\.cz\.cc$/.test(host)) return "+Anycast";
         if (/(?:^|\.)nic\.cz\.cc$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)data18\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)dt18\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dns\.sb$/.test(host)) return "+Anycast";
         if (/(?:^|\.)doh\.sb$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dot\.sb$/.test(host)) return "+Anycast";
@@ -4307,6 +4308,6 @@ var FindProxyForURL = function(init, profiles) {
     "+Anycast": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /\.kevinkim\.fun$/.test(host) || /^[^:]+:\/\/2001:da8:*\//.test(url) || /^192\.168\..*\./.test(host) || /^10\..*\..*\./.test(host)) return "DIRECT";
-        return "PROXY 202.192.23.2:6789";
+        return "PROXY 202.198.23.2:6789";
     }
 });
