@@ -66,6 +66,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)51cg1\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg\.fun$/.test(host)) return "+Anycast";
         if (/(?:^|\.)ippure\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)wandb\.ai$/.test(host)) return "+Anycast";
         return "+__ruleListOf_gfw\u540d\u5355";
     },
     "+__ruleListOf_gfw\u540d\u5355": function() {
