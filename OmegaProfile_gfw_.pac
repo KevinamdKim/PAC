@@ -4310,6 +4310,6 @@ var FindProxyForURL = function(init, profiles) {
     "+Anycast": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /\.kevinkim\.fun$/.test(host) || /^[^:]+:\/\/2001:da8:*\//.test(url) || /^192\.168\..*\./.test(host) || /^10\..*\..*\./.test(host)) return "DIRECT";
-        return "PROXY 202.198.23.2:6789";
+        return "PROXY 222.27.87.132:6789";
     }
 });
