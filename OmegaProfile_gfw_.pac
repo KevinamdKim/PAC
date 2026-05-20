@@ -12,26 +12,10 @@ var FindProxyForURL = function(init, profiles) {
 }("+gfw\u540d\u5355", {
     "+gfw\u540d\u5355": function(url, host, scheme) {
         "use strict";
-        if (/(?:^|\.)bootstrapcdn\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)gravatar\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)aie-lab\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)bing\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)vpns\.jlu\.edu\.cn$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)webvpn\.jlu\.edu\.cn$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vpn\.jlu\.edu\.cn$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)vpn1\.jlu\.edu\.cn$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)yahoo\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)anthropic\.com$/.test(host)) return "+Anycast";
-        if (/^www\.bing\.com$/.test(host)) return "+Anycast";
-        if (/^copilot\.microsoft\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)meta\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)thecvf\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)anthropic\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)claude\.ai$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)x\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)arxiv\.org$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)docker\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)liaobots\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)msn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)tw$/.test(host)) return "+Anycast";
@@ -40,32 +24,18 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hysteria\.network$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dev$/.test(host)) return "+Anycast";
         if (/(?:^|\.)in$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)sora\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)namu\.wiki$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)aljazeera\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)asuscomm\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)googleapis\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)io$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)x\.ai$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)linkedin\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)yfsp\.tv$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)naver\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)fosshub\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)grazie\.aws\.intellij\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)grazie\.ai$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)1lib\.sk$/.test(host)) return "+Anycast";
         if (/(?:^|\.)pipecdn\.vip$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)google$/.test(host)) return "+Anycast";
         if (/(?:^|\.)visualstudio\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)microsoft\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)files\.oaiusercontent\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)grokipedia\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)xdaforums\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)azure\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg1\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg\.fun$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)ippure\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)wandb\.ai$/.test(host)) return "+Anycast";
         return "+__ruleListOf_gfw\u540d\u5355";
     },
@@ -1558,6 +1528,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bvpn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bwh1\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bypasscensorship\.org$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)chonglangtv\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)ctinsider\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cnbc\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cia\.gov$/.test(host)) return "+Anycast";
@@ -3347,6 +3318,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)rutracker\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)rutracker\.org$/.test(host)) return "+Anycast";
         if (/^http:\/\/rxhj\.net/.test(url)) return "+Anycast";
+        if (/(?:^|\.)sider\.ai$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sinchew\.com\.my$/.test(host)) return "+Anycast";
         if (/(?:^|\.)softether\.co\.jp$/.test(host)) return "+Anycast";
         if (/(?:^|\.)shitjournal\.org$/.test(host)) return "+Anycast";
@@ -4254,6 +4226,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)yyjlymb\.xyz$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yysub\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yzzk\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)zhangzhehan\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)zaochenbao\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)z-library\.ec$/.test(host)) return "+Anycast";
         if (/(?:^|\.)z-library\.sk$/.test(host)) return "+Anycast";
