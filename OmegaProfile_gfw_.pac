@@ -37,6 +37,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)51cg1\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)51cg\.fun$/.test(host)) return "+Anycast";
         if (/(?:^|\.)wandb\.ai$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)coupangplay\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)play\.coupang\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)coupang\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)widevine\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)googlevideo\.com$/.test(host)) return "+Anycast";
         return "+__ruleListOf_gfw\u540d\u5355";
     },
     "+__ruleListOf_gfw\u540d\u5355": function() {
@@ -438,7 +443,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)line-scdn\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)i\.lithium\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cloud\.mail\.ru$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)cdn-images\.mailchimp\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mastodon\.cloud$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mastodon\.host$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mastodon\.social$/.test(host)) return "+Anycast";
@@ -634,7 +638,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bloomberg\.de$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bloombergview\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cloudflarestatus\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)pages\.dev$/.test(host)) return "+Anycast";
         if (/(?:^|\.)workers\.dev$/.test(host)) return "+Anycast";
         if (/(?:^|\.)one\.one\.one\.one$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cloudflare-dns\.com$/.test(host)) return "+Anycast";
@@ -1129,6 +1132,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)yahoo\.com\.tw$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yahoo\.com\.hk$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yahoo\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)24hbook\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)996\.icu$/.test(host)) return "+Anycast";
         if (/(?:^|\.)ipfs\.4everland\.io$/.test(host)) return "+Anycast";
         if (/(?:^|\.)91dasai\.com$/.test(host)) return "+Anycast";
@@ -1336,6 +1340,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)areca-backup\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)arethusa\.su$/.test(host)) return "+Anycast";
         if (/(?:^|\.)arlingtoncemetery\.mil$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)as\.mr$/.test(host)) return "+Anycast";
         if (/(?:^|\.)asacp\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)asiaharvest\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)asianage\.com$/.test(host)) return "+Anycast";
@@ -1405,6 +1410,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bandwagonhost\.com$/.test(host)) return "+Anycast";
         if (/^http:\/\/bangchen\.net/.test(url)) return "+Anycast";
         if (/(?:^|\.)bangkokpost\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)bangumi\.tv$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bangyoulater\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bannedbook\.org$/.test(host)) return "+Anycast";
         if (/^http:\/\/baramangaonline\.com/.test(url)) return "+Anycast";
@@ -1435,6 +1441,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)betvictor\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bfnn\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bfsh\.hk$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)bgm\.tv$/.test(host)) return "+Anycast";
         if (/(?:^|\.)bgvpn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)biblesforamerica\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vpl\.bibliocommons\.com$/.test(host)) return "+Anycast";
@@ -1530,7 +1537,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bypasscensorship\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)chonglangtv\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)ctinsider\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)cnbc\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cia\.gov$/.test(host)) return "+Anycast";
         if (/(?:^|\.)claude\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)www\.clashverge\.dev$/.test(host)) return "+Anycast";
@@ -1632,6 +1638,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)chenpokongvip\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cherrysave\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)chhongbi\.org$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)chii\.in$/.test(host)) return "+Anycast";
         if (/(?:^|\.)china-week\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)china101\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)china18\.org$/.test(host)) return "+Anycast";
@@ -1855,6 +1862,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)dougscripts\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)doujincafe\.com$/.test(host)) return "+Anycast";
         if (/^https:\/\/bartender\.dowjones\.com/.test(url)) return "+Anycast";
+        if (/(?:^|\.)dowjones\.io$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dpp\.org\.tw$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dpr\.info$/.test(host)) return "+Anycast";
         if (/(?:^|\.)dragonsprings\.org$/.test(host)) return "+Anycast";
@@ -2115,6 +2123,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)futuremessage\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)fw\.cm$/.test(host)) return "+Anycast";
         if (/(?:^|\.)fxcm-chinese\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)f95zone\.to$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)g\.ai$/.test(host)) return "+Anycast";
         if (/(?:^|\.)gmgn\.ai$/.test(host)) return "+Anycast";
         if (/(?:^|\.)grokipedia\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)gfwbao\.com$/.test(host)) return "+Anycast";
@@ -2155,6 +2165,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)geek-art\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)gekikame\.com$/.test(host)) return "+Anycast";
         if (/^http:\/\/gelbooru\.com/.test(url)) return "+Anycast";
+        if (/(?:^|\.)gencraft\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)generated\.photos$/.test(host)) return "+Anycast";
         if (/(?:^|\.)genius\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)geph\.io$/.test(host)) return "+Anycast";
@@ -2295,6 +2306,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)heyuedi\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)hiccears\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)hidden-advent\.org$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)hiddify\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)hide\.me$/.test(host)) return "+Anycast";
         if (/(?:^|\.)hideipvpn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)hideman\.net$/.test(host)) return "+Anycast";
@@ -2685,6 +2697,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/lyfhk\.net/.test(url)) return "+Anycast";
         if (/(?:^|\.)lzjscript\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)lzmtnews\.org$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)leonardo\.ai$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)mas\.to$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mjj\.today$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mediamatters\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mistral\.ai$/.test(host)) return "+Anycast";
@@ -2821,6 +2835,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/motherless\.com/.test(url)) return "+Anycast";
         if (/(?:^|\.)movements\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)moviefap\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)mozilla\.ai$/.test(host)) return "+Anycast";
         if (/(?:^|\.)www\.moztw\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mpettis\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mpfinance\.com$/.test(host)) return "+Anycast";
@@ -2845,6 +2860,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)myparagliding\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)mypopescu\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)myspacecdn\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)neodb\.social$/.test(host)) return "+Anycast";
         if (/(?:^|\.)nfscofficial\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)nfsc\.press$/.test(host)) return "+Anycast";
         if (/(?:^|\.)newstimes\.com$/.test(host)) return "+Anycast";
@@ -3318,6 +3334,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)rutracker\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)rutracker\.org$/.test(host)) return "+Anycast";
         if (/^http:\/\/rxhj\.net/.test(url)) return "+Anycast";
+        if (/(?:^|\.)raphael\.app$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)rule34\.us$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sider\.ai$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sinchew\.com\.my$/.test(host)) return "+Anycast";
         if (/(?:^|\.)softether\.co\.jp$/.test(host)) return "+Anycast";
@@ -3462,7 +3480,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)sockslist\.net$/.test(host)) return "+Anycast";
         if (/^http:\/\/socrec\.org/.test(url)) return "+Anycast";
         if (/(?:^|\.)softether\.org$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)softether-download\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)cdn\.softlayer\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sogclub\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sohcradio\.com$/.test(host)) return "+Anycast";
@@ -3549,12 +3566,14 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/surfeasy\.com\.au/.test(url)) return "+Anycast";
         if (/(?:^|\.)surfshark\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)surrenderat20\.net$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)suyingtv\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)swissinfo\.ch$/.test(host)) return "+Anycast";
         if (/(?:^|\.)swissvpn\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)switchvpn\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sydneytoday\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)sylfoundation\.org$/.test(host)) return "+Anycast";
         if (/(?:^|\.)syncback\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)sotwe\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)tvdy1\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)tgstat\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)the-sun\.com$/.test(host)) return "+Anycast";
@@ -3921,6 +3940,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)vimeocdn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vpsxb\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vilanet\.me$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)veed\.io$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vewas\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)v2\.help$/.test(host)) return "+Anycast";
         if (/(?:^|\.)vocaroo\.com$/.test(host)) return "+Anycast";
@@ -4116,6 +4136,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xijie\.wordpress\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)ifreechina\.wordpress\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)wp\.com$/.test(host)) return "+Anycast";
+        if (/(?:^|\.)wplace\.live$/.test(host)) return "+Anycast";
         if (/(?:^|\.)wowporn\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)wowgirls\.com$/.test(host)) return "+Anycast";
         if (/^http:\/\/woyaolian\.org/.test(url)) return "+Anycast";
@@ -4200,7 +4221,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/yeyeclub\.com/.test(url)) return "+Anycast";
         if (/(?:^|\.)yhcw\.net$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yibaochina\.com$/.test(host)) return "+Anycast";
-        if (/(?:^|\.)yidio\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)s\.yimg\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yipub\.com$/.test(host)) return "+Anycast";
         if (/(?:^|\.)yizhihongxing\.com$/.test(host)) return "+Anycast";
